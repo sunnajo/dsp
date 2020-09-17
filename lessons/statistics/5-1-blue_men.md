@@ -2,6 +2,8 @@
 
 *Percentage of people between 5'10" and 6'1":*  
 
-	h1 = dist.cdf(177.8)  
+Compute the percentage of people who are 5'10" or shorter using the CDF and the percentage of people who are 6'1" or shorter using the CDF, and find the difference between the two values.
+
+	h1 = dist.cdf(177.8) 
 	h2 = dist.cdf(185.4)  
-	print(h2-h1)
+	h2-h1
