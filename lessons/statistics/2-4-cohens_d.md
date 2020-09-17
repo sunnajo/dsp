@@ -3,10 +3,12 @@
 *Compute Cohen’s effect size to quantify the difference between the groups. How does it compare to the difference in pregnancy length?*  
 
 Compute the means of the two groups:
+
 	firsts.totalwgt_lb.mean(), others.totalwgt_lb.mean()  
 (7.201094430437772, 7.325855614973262)    
 
 Compute the Cohen's effect size:
+
 	CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)  
 -0.088672927072602    
 
